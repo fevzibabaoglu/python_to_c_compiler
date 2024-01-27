@@ -1,0 +1,6 @@
+If a == 3:
+    c=3
+else:
+    c=2
+elif b<3:
+    c=1

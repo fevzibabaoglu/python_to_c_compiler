@@ -1,0 +1,8 @@
+If a == 5: # first if is opened
+    if b == 3: # second if is opened
+        c = 5 # there is 2 unclosed if
+        b = 2 # there is 2 unclosed if
+    c = c * 2 # at this point second if closed.
+    b = a * 2 # there is 1 unclosed if
+a = c + b # at this point first if closed
+a = a * 2 # there is no unclosed if

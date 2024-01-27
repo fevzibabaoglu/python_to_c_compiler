@@ -1,0 +1,5 @@
+if a == 3:
+    c=3
+d=2 # in this line if is closed so the next else does not have an if
+else:
+    c=2

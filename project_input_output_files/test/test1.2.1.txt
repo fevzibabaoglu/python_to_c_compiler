@@ -1,0 +1,8 @@
+if a > b :
+	a = 1
+elif a < b:
+	if a <= 0:
+		a = 0
+	a = a * a
+else:
+	a = b + 1
